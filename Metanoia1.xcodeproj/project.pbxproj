@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A75BF09A24C0E93A0086D582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BF09924C0E93A0086D582 /* AppDelegate.swift */; };
+		A75BF09C24C0E93A0086D582 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BF09B24C0E93A0086D582 /* SceneDelegate.swift */; };
+		A75BF09E24C0E93A0086D582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BF09D24C0E93A0086D582 /* ViewController.swift */; };
+		A75BF0A124C0E93A0086D582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75BF09F24C0E93A0086D582 /* Main.storyboard */; };
+		A75BF0A424C0E93A0086D582 /* Metanoia1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A75BF0A224C0E93A0086D582 /* Metanoia1.xcdatamodeld */; };
+		A75BF0A624C0E9450086D582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75BF0A524C0E9450086D582 /* Assets.xcassets */; };
+		A75BF0A924C0E9450086D582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75BF0A724C0E9450086D582 /* LaunchScreen.storyboard */; };
+		A75BF0B424C0E9450086D582 /* Metanoia1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BF0B324C0E9450086D582 /* Metanoia1Tests.swift */; };
+		A75BF0BF24C0E9450086D582 /* Metanoia1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BF0BE24C0E9450086D582 /* Metanoia1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A75BF0B024C0E9450086D582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75BF08E24C0E93A0086D582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75BF09524C0E93A0086D582;
+			remoteInfo = Metanoia1;
+		};
+		A75BF0BB24C0E9450086D582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75BF08E24C0E93A0086D582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75BF09524C0E93A0086D582;
+			remoteInfo = Metanoia1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A75BF09624C0E93A0086D582 /* Metanoia1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metanoia1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75BF09924C0E93A0086D582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A75BF09B24C0E93A0086D582 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A75BF09D24C0E93A0086D582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A75BF0A024C0E93A0086D582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A75BF0A324C0E93A0086D582 /* Metanoia1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Metanoia1.xcdatamodel; sourceTree = "<group>"; };
+		A75BF0A524C0E9450086D582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A75BF0A824C0E9450086D582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A75BF0AA24C0E9450086D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75BF0AF24C0E9450086D582 /* Metanoia1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Metanoia1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75BF0B324C0E9450086D582 /* Metanoia1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metanoia1Tests.swift; sourceTree = "<group>"; };
+		A75BF0B524C0E9450086D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75BF0BA24C0E9450086D582 /* Metanoia1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Metanoia1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75BF0BE24C0E9450086D582 /* Metanoia1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metanoia1UITests.swift; sourceTree = "<group>"; };
+		A75BF0C024C0E9450086D582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75BF09324C0E93A0086D582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75BF0AC24C0E9450086D582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75BF0B724C0E9450086D582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A75BF08D24C0E93A0086D582 = {
+			isa = PBXGroup;
+			children = (
+				A75BF09824C0E93A0086D582 /* Metanoia1 */,
+				A75BF0B224C0E9450086D582 /* Metanoia1Tests */,
+				A75BF0BD24C0E9450086D582 /* Metanoia1UITests */,
+				A75BF09724C0E93A0086D582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A75BF09724C0E93A0086D582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75BF09624C0E93A0086D582 /* Metanoia1.app */,
+				A75BF0AF24C0E9450086D582 /* Metanoia1Tests.xctest */,
+				A75BF0BA24C0E9450086D582 /* Metanoia1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A75BF09824C0E93A0086D582 /* Metanoia1 */ = {
+			isa = PBXGroup;
+			children = (
+				A75BF09924C0E93A0086D582 /* AppDelegate.swift */,
+				A75BF09B24C0E93A0086D582 /* SceneDelegate.swift */,
+				A75BF09D24C0E93A0086D582 /* ViewController.swift */,
+				A75BF09F24C0E93A0086D582 /* Main.storyboard */,
+				A75BF0A524C0E9450086D582 /* Assets.xcassets */,
+				A75BF0A724C0E9450086D582 /* LaunchScreen.storyboard */,
+				A75BF0AA24C0E9450086D582 /* Info.plist */,
+				A75BF0A224C0E93A0086D582 /* Metanoia1.xcdatamodeld */,
+			);
+			path = Metanoia1;
+			sourceTree = "<group>";
+		};
+		A75BF0B224C0E9450086D582 /* Metanoia1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A75BF0B324C0E9450086D582 /* Metanoia1Tests.swift */,
+				A75BF0B524C0E9450086D582 /* Info.plist */,
+			);
+			path = Metanoia1Tests;
+			sourceTree = "<group>";
+		};
+		A75BF0BD24C0E9450086D582 /* Metanoia1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A75BF0BE24C0E9450086D582 /* Metanoia1UITests.swift */,
+				A75BF0C024C0E9450086D582 /* Info.plist */,
+			);
+			path = Metanoia1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A75BF09524C0E93A0086D582 /* Metanoia1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75BF0C324C0E9450086D582 /* Build configuration list for PBXNativeTarget "Metanoia1" */;
+			buildPhases = (
+				A75BF09224C0E93A0086D582 /* Sources */,
+				A75BF09324C0E93A0086D582 /* Frameworks */,
+				A75BF09424C0E93A0086D582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metanoia1;
+			productName = Metanoia1;
+			productReference = A75BF09624C0E93A0086D582 /* Metanoia1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A75BF0AE24C0E9450086D582 /* Metanoia1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75BF0C624C0E9450086D582 /* Build configuration list for PBXNativeTarget "Metanoia1Tests" */;
+			buildPhases = (
+				A75BF0AB24C0E9450086D582 /* Sources */,
+				A75BF0AC24C0E9450086D582 /* Frameworks */,
+				A75BF0AD24C0E9450086D582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75BF0B124C0E9450086D582 /* PBXTargetDependency */,
+			);
+			name = Metanoia1Tests;
+			productName = Metanoia1Tests;
+			productReference = A75BF0AF24C0E9450086D582 /* Metanoia1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A75BF0B924C0E9450086D582 /* Metanoia1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75BF0C924C0E9450086D582 /* Build configuration list for PBXNativeTarget "Metanoia1UITests" */;
+			buildPhases = (
+				A75BF0B624C0E9450086D582 /* Sources */,
+				A75BF0B724C0E9450086D582 /* Frameworks */,
+				A75BF0B824C0E9450086D582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75BF0BC24C0E9450086D582 /* PBXTargetDependency */,
+			);
+			name = Metanoia1UITests;
+			productName = Metanoia1UITests;
+			productReference = A75BF0BA24C0E9450086D582 /* Metanoia1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75BF08E24C0E93A0086D582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Stephanie Gao";
+				TargetAttributes = {
+					A75BF09524C0E93A0086D582 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A75BF0AE24C0E9450086D582 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A75BF09524C0E93A0086D582;
+					};
+					A75BF0B924C0E9450086D582 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A75BF09524C0E93A0086D582;
+					};
+				};
+			};
+			buildConfigurationList = A75BF09124C0E93A0086D582 /* Build configuration list for PBXProject "Metanoia1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A75BF08D24C0E93A0086D582;
+			productRefGroup = A75BF09724C0E93A0086D582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A75BF09524C0E93A0086D582 /* Metanoia1 */,
+				A75BF0AE24C0E9450086D582 /* Metanoia1Tests */,
+				A75BF0B924C0E9450086D582 /* Metanoia1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A75BF09424C0E93A0086D582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75BF0A924C0E9450086D582 /* LaunchScreen.storyboard in Resources */,
+				A75BF0A624C0E9450086D582 /* Assets.xcassets in Resources */,
+				A75BF0A124C0E93A0086D582 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75BF0AD24C0E9450086D582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75BF0B824C0E9450086D582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A75BF09224C0E93A0086D582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75BF09E24C0E93A0086D582 /* ViewController.swift in Sources */,
+				A75BF0A424C0E93A0086D582 /* Metanoia1.xcdatamodeld in Sources */,
+				A75BF09A24C0E93A0086D582 /* AppDelegate.swift in Sources */,
+				A75BF09C24C0E93A0086D582 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75BF0AB24C0E9450086D582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75BF0B424C0E9450086D582 /* Metanoia1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75BF0B624C0E9450086D582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75BF0BF24C0E9450086D582 /* Metanoia1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A75BF0B124C0E9450086D582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75BF09524C0E93A0086D582 /* Metanoia1 */;
+			targetProxy = A75BF0B024C0E9450086D582 /* PBXContainerItemProxy */;
+		};
+		A75BF0BC24C0E9450086D582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75BF09524C0E93A0086D582 /* Metanoia1 */;
+			targetProxy = A75BF0BB24C0E9450086D582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A75BF09F24C0E93A0086D582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75BF0A024C0E93A0086D582 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A75BF0A724C0E9450086D582 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75BF0A824C0E9450086D582 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A75BF0C124C0E9450086D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A75BF0C224C0E9450086D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A75BF0C424C0E9450086D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metanoia1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.Metanoia1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A75BF0C524C0E9450086D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metanoia1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.Metanoia1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A75BF0C724C0E9450086D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metanoia1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.Metanoia1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metanoia1.app/Metanoia1";
+			};
+			name = Debug;
+		};
+		A75BF0C824C0E9450086D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metanoia1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.Metanoia1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metanoia1.app/Metanoia1";
+			};
+			name = Release;
+		};
+		A75BF0CA24C0E9450086D582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metanoia1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.Metanoia1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Metanoia1;
+			};
+			name = Debug;
+		};
+		A75BF0CB24C0E9450086D582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metanoia1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.Metanoia1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Metanoia1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A75BF09124C0E93A0086D582 /* Build configuration list for PBXProject "Metanoia1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75BF0C124C0E9450086D582 /* Debug */,
+				A75BF0C224C0E9450086D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75BF0C324C0E9450086D582 /* Build configuration list for PBXNativeTarget "Metanoia1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75BF0C424C0E9450086D582 /* Debug */,
+				A75BF0C524C0E9450086D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75BF0C624C0E9450086D582 /* Build configuration list for PBXNativeTarget "Metanoia1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75BF0C724C0E9450086D582 /* Debug */,
+				A75BF0C824C0E9450086D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75BF0C924C0E9450086D582 /* Build configuration list for PBXNativeTarget "Metanoia1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75BF0CA24C0E9450086D582 /* Debug */,
+				A75BF0CB24C0E9450086D582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A75BF0A224C0E93A0086D582 /* Metanoia1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A75BF0A324C0E93A0086D582 /* Metanoia1.xcdatamodel */,
+			);
+			currentVersion = A75BF0A324C0E93A0086D582 /* Metanoia1.xcdatamodel */;
+			path = Metanoia1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A75BF08E24C0E93A0086D582 /* Project object */;
+}
